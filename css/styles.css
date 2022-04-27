@@ -1,0 +1,81 @@
+/* Основной фон #FFFFFF; */
+/* Фон героя и футера #2F303A */
+/* Вторичный фон (Наша команда) #F5F4FA */
+/* Основной цвет шрифта #757575; */
+/* Активный цвет шрифта #2196F3; */
+/* Цвет шрифта заголовков #212121 */
+/* Доп цвет шрифта герой #FFFFFF, футер rgba(255, 255, 255, 0.6) */
+
+body{
+    color:#212121;
+    background-color: white;  
+}
+
+li{
+    list-style: none;
+}
+ /* Header */
+ .header-link{
+     color:#2196F3 ;
+ }
+ .link-item{
+     color:#212121;
+ }
+ .link-item:hover,
+ .link-item:focus{
+     color: #2196F3;
+ }
+ .link-nav{
+     color:#757575 ;
+ }
+ .link-nav:hover,
+ .link-nav:focus{
+     color: #2196F3;
+ }    
+ 
+ /* Hover */
+ .hover-section{
+     background-color:#2F303A ;
+ }
+ .hover{
+     color:#FFFFFF ;
+ }
+ .hover-btn{
+     color: #FFFFFF;
+     background-color: #2196F3;
+ }
+
+ /* Feature */
+ .feature-section{
+     color: #212121;
+ }
+ .feature-item{
+     color: #757575;
+ }
+
+ /* Team */
+ .team{
+     background-color:#F5F4FA;
+     color: #212121;
+ }
+ .team-item{
+     color: #757575;
+ }
+
+ /* Footer */
+.footer{
+    background-color: #2F303A;
+}
+.footer-link{
+    color: #2196F3;
+}
+.footer-address{
+    color: #FFFFFF;
+}
+.address-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-link:hover,
+.address-link:focus{
+    color:rgba(255, 255, 255, 0.6) ;
+}
