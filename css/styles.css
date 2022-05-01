@@ -29,6 +29,7 @@ li{
  .header-link{
      color:var(--active-color) ;
      font-family: Raleway;
+     font-weight: 700;
      font-size: 26px;
      line-height: 1.19;
      text-decoration: none; 
@@ -52,6 +53,11 @@ li{
  }
  .link-nav{
      color:#757575 ;
+     font-family: 'Roboto';
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14;
+     letter-spacing: 0.02em;
      text-decoration: none;
  }
  .link-nav:hover,
@@ -65,14 +71,18 @@ li{
  }
  .hover{
      color:#FFFFFF ;
+     font-family: 'Roboto'; 
+     font-weight: 900;
      font-size: 44px;
-     line-height: 1.36;
-     
+     line-height: 1.36; 
      text-align: center;
      letter-spacing: 0.06em;
+     text-transform: uppercase; 
  }
  .hover-btn{
      color: #FFFFFF;
+     font-family: 'Roboto';
+     font-weight: 700;
      background-color: var(--active-color);
      font-size: 16px;
      line-height: 1.87;  
@@ -93,29 +103,40 @@ li{
      color: var(--main-font);
      font-size: 14px;
      line-height: 1.14;
+     text-transform: uppercase;
 
  }
  .feature-item{
      color: var(--secondary-text);
      font-size: 14px;
      line-height: 1.71;
+     font-weight: 400;
    
  }
 
  /* Team */
  .section-team{
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
 
  }
  .team{
+     font-weight: 500;
      background-color:#F5F4FA;
      color: var(--main-font);
+     font-size: 16px;
+     line-height: 1.18;
+     text-align: center;
      
  }
  .team-item{
      color: var(--secondary-text);
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.18;
+     text-align: center;
  }
 
  /* Footer */
@@ -157,6 +178,12 @@ li{
 .btn-item{
     color: var(--main-font);
     background-color:#F5F4FA;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 .btn-item:hover,
@@ -168,11 +195,12 @@ li{
 .portfolio{
     color: var(--main-font);
     font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 2.0;
+    line-height: 2.0;
+    letter-spacing: 0.03;
 }
 .portfolio-text{
     color: var(--secondary-text);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
 }
